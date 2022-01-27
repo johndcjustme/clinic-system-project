@@ -2,7 +2,7 @@
   
   <div class="flex full_vh overflow_hidden">
 
-    <section class="sidenav full_vh br_1">
+    <section class="sidenav full_vh br_1 overflow_y noscroll">
       @include('layouts.sidenav')
     </section>
 
