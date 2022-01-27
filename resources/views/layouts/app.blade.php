@@ -1,11 +1,12 @@
 @include('layouts.heading')
   
-  <div>
+  <div class="flex full_vh overflow_hidden">
 
+
+    @include('layouts.sidenav')
 
 
     @yield('content')
-
 
 
 

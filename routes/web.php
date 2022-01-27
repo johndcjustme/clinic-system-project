@@ -21,3 +21,4 @@ Route::get('landing', App\Http\Livewire\Pages\Landing::class);
 Route::get('sign-in', App\Http\Livewire\Components\Molecules\InputFields\SignIn::class);
 Route::get('sign-up', App\Http\Livewire\Components\Molecules\InputFields\SignUp::class);
 Route::get('forgot-password', App\Http\Livewire\Components\Molecules\InputFields\ForgotPassword::class);
+Route::view('/dashboard', 'layouts.app');
