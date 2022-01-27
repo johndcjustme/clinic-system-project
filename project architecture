@@ -1,0 +1,58 @@
+project name: clinic-system
+database name: clinic_system
+
+
+
+
+layouts/
+    sidenav
+    app
+    footer
+    header
+    index
+
+livewire/
+    components/
+        atoms/
+            btn-add-patient
+            btn-add-user
+
+        molecules/
+            forms/
+                sign-in
+                sign-up
+                forgot-password
+                change-password
+                patient-perosnal-info
+                patient-contact-info
+                patient-exam
+                patient-purchase
+
+        organisms/
+            forms/
+                fogot-password
+                change-password
+                patient-profile
+                patient-list
+
+            modal/
+
+
+    pages/
+        landing
+        sign-in
+        sign-up
+        forgot-password
+        change-password
+        Dashboard
+        Patient 
+        Users
+        Orders
+        Inventory
+        Scheduling
+        Appointment
+        error_404
+        error_connection
+
+    templates/
+
