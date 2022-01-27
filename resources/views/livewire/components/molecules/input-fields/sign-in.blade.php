@@ -5,7 +5,7 @@
 
     <br>
 
-    <form action="">
+    <form action="/dashboard">
         <label for="">User name</label>
         <input type="text">
 
