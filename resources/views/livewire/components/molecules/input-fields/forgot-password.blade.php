@@ -10,6 +10,6 @@
         <br><br>
     </form>
     <div class="text_center">
-        <a class="button_link" href="/sign-in">Sign in</a>
+        <a class="button_link font_medium" href="/sign-in">Sign in</a>
     </div>
 </div>

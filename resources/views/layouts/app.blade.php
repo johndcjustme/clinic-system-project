@@ -1,23 +1,16 @@
-@include('layouts.heading')
-  
-  <div class="flex full_vh overflow_hidden">
+@includeIf('layouts.heading')
 
-    @include('layouts.sidenav')
+<div class="flex full_vh overflow_hidden">
+
+    @includeIf('layouts.sidenav')
 
     <section class="full_vh full_w">
-     
-      @include('layouts.topbar')
-
-      <div class="main_content">
-
-        @yield('content')
-        
-      </div>
-
+        @includeIf('layouts.topbar')
+        <div class="main_content">
+            @yield('content')
+        </div>
     </section>
 
-  </div>
+</div>
 
-@include('layouts.footer')
-
-
+@includeIf('layouts.footer')

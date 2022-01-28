@@ -1,7 +1,7 @@
-@include('layouts.heading')
+@includeIf('layouts.heading')
 
         
     @yield('content')
 
 
-@include('layouts.footer')
+@includeIf('layouts.footer')

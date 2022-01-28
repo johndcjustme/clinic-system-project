@@ -27,9 +27,9 @@
         <input class="mt_10 full_w" type="submit" value="create account">
         <br><br><br>
         <div class="text_center">
-            <p>
+            <p class="font_medium">
                 Already have an account?
-                <a href="/sign-in" class="button_link">Sign in</a>
+                <a href="/sign-in" class="button_link font_medium">Sign in</a>
             </p>
         </div>
     </form>

@@ -9,6 +9,9 @@
 {{-- main content  --}}
 @section('content')
 
-    Hello, From patient
+<div class="flex flex_x_between full_w main_content_inner overflow_hidden">
+    @includeIf('livewire.components.organisms.forms.patient-profile')
+    @includeIf('livewire.components.organisms.forms.patient-list')
+</div>
 
 @endsection

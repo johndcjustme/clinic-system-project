@@ -1,5 +1,7 @@
 <section class="sidenav full_vh br_1 overflow_y noscroll">
     <ul class="selectable card card_noformat empty">
+
+        {{-- header  --}}
         <div>
             <a href="/users" title="User">
                 <li class="@yield('users')">
@@ -9,12 +11,12 @@
             </a>
             <hr class="my_10">
         </div>
-        
-        
+    
+        {{-- body  --}}
         <div>
             <a href="/dashboard" title="Dashboard">
                 <li class="@yield('dashboard')">
-                    <i class="fas fa-chart-line"></i>
+                    <i class="fas fa-chart-area"></i>
                     <span>Dashboard</span>
                 </li>
             </a>
@@ -34,7 +36,6 @@
                 <li class="@yield('orders')">
                     <i class="fas fa-shopping-cart"></i>
                     <span>Orders</span>
-                    
                 </li>
             </a>
             <a href="/appointments" title="Appointments">
@@ -50,8 +51,8 @@
                 </li>
             </a>
         </div>
-        
-        
+
+        {{-- footer  --}}
         <div>
             <hr class="my_10">
             <a href="/sign-in" title="Logout">
