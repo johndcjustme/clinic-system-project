@@ -1,5 +1,4 @@
-
-
+<section class="sidenav full_vh br_1 overflow_y noscroll">
     <ul class="selectable card card_noformat empty">
         <div>
             <a href="/users" title="User">
@@ -8,16 +7,15 @@
                     <span>John@admin</span>
                 </li>
             </a>
+            <hr class="my_10">
         </div>
         
-        <hr class="my_10">
         
         <div>
             <a href="/dashboard" title="Dashboard">
                 <li class="@yield('dashboard')">
                     <i class="fas fa-chart-line"></i>
                     <span>Dashboard</span>
-                    
                 </li>
             </a>
             <a href="/patient" title="Patient">
@@ -52,10 +50,10 @@
                 </li>
             </a>
         </div>
-
-        <hr class="my_10">
-
+        
+        
         <div>
+            <hr class="my_10">
             <a href="/sign-in" title="Logout">
                 <li>
                     <i class="fas fa-sign-out-alt"></i>
@@ -64,5 +62,4 @@
             </a>
         </div>
     </ul>
-
-
+</section>

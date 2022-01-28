@@ -4,8 +4,8 @@
 
         <div class="bb_1">
             <div class="landing_header flex flex_x_between flex_y_center">
-                <div>
-                    <img class="unselectable" src="{{ asset('images/dango-logo-inline.png') }}" alt="">
+                <div class="flex flex_y_center">
+                    <img class="unselectable" src="{{ asset('images/dango-logo-nolabel.png') }}" alt=""> <span class="ml_8">Dango Optical Clinic</span>
                 </div>
                 <div>
                     <a href="/sign-in" class="button_text">sign in</a>

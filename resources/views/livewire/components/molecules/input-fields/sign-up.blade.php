@@ -8,18 +8,18 @@
         <h5>Your personal info</h5>
         <hr><br>
         <label for="">First name</label>
-        <input type="text" placeholder="Enter first name">
+        <input type="text" placeholder="">
         <label for="">Last name</label>
-        <input type="text" placeholder="Enter first name">
+        <input type="text" placeholder="">
         <label for="">Middle name</label>
-        <input type="text" placeholder="Enter middle name">
+        <input type="text" placeholder="">
         <label for="">Address</label>
-        <input type="text" placeholder="Enter Address">
+        <input type="text" placeholder="">
         <br><br><br>
         <h5>Sign in details</h5>
         <hr><br>
         <label for="">Email address</label>
-        <input type="text" placeholder="Enter email">
+        <input type="text" placeholder="">
         <label for="">Create Passoword</label>
         <input type="password">
         <label for="">Confirm Passoword</label>

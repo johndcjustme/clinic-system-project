@@ -8,7 +8,7 @@
             
                 @include('livewire.components.atoms.auth-dango-logo')
                 <br>
-                <h4>@yield('authTitle','title')</h4>
+                <h4 style="font-size: 1.3rem">@yield('authTitle','title')</h4>
                 @yield('content')
 
             </div>

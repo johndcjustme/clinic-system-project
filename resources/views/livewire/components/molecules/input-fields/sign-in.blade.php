@@ -15,7 +15,7 @@
         </div>
 
         <input type="password">
-        <input class="mt_10 full_w" type="submit" value="Sign in">
+        <button class="mt_10 full_w" type="submit">Sign in</button>
         <br><br><br>
     </form>
     <div class="text_center">

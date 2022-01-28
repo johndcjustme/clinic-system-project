@@ -2,18 +2,16 @@
   
   <div class="flex full_vh overflow_hidden">
 
-    <section class="sidenav full_vh br_1 overflow_y noscroll">
-      @include('layouts.sidenav')
-    </section>
+    @include('layouts.sidenav')
 
     <section class="full_vh full_w">
-
-      <div class="topbar flex flex_x_between bb_1 flex_y_center">
-        @include('layouts.topbar')
-      </div>
+     
+      @include('layouts.topbar')
 
       <div class="main_content">
+
         @yield('content')
+        
       </div>
 
     </section>
